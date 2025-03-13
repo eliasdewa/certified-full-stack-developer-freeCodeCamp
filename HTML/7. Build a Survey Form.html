@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">
+    Please complete the following survey to help me improve my teaching and learning experience. I value your honesty and feedback. Thank you!
+  </p>
+  <form action="" id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Your name" required/><br>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="Your email" required /><br>
+    <label for="age" id="number-label">Age</label>
+    <input type="number" name="age" id="number" min="18" max="60" placeholder="Your age" /><br>
+    <label for="gender" id="gender-label">Gender</label>
+    <select name="gender" id="dropdown">
+      <option value="">Select your gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <label for="recommendation-yes">Yes</label>
+    <input type="radio" name="recommendation" id="recommendation-yes" value="yes" required />
+    <label for="recommendation-no">No</label>
+    <input type="radio" name="recommendation" id="recommendation-no" value="no" required /><br>
+    <label for="topics-label">What topics would you like to learn more about?</label><br>
+    <label for="topics-html">HTML</label>
+    <input type="checkbox" name="topics" id="topics-html" value="html" />
+    <label for="topics-css">CSS</label>
+    <input type="checkbox" name="topics" id="topics-javascript" value="javascript" />
+    <label for="topics-nodejs">Node.js</label>
+    <input type="checkbox" name="topics" id="topics-react" value="react" />
+    <label for="topics-sql">SQL</label>
+    <input type="checkbox" name="topics" id="topics-other" value="other" />
+    <p>How would you rate the difficulty of the courses you've completed so far?</p>
+    <label for="difficulty-easy">Easy</label>
+    <input type="radio" name="difficulty" id="difficulty-easy" value="easy" required />
+    <label for="difficulty-medium">Medium</label>
+    <input type="radio" name="difficulty" id="difficulty-medium" value="medium" required />
+    <label for="difficulty-hard">Hard</label>
+    <p>What would you like to see improved?</p>
+    <textarea name="improvements" id="improvements" rows="4" cols="50" placeholder="Type your suggestions here"></textarea><br>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
