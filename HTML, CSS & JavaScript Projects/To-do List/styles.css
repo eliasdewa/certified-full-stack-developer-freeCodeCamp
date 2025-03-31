@@ -1,0 +1,57 @@
+body {
+  background-color: #f4f4f4;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  margin: 20px auto;
+  padding: 10px 20px;
+  max-width: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.todo-list li {
+  margin-bottom: 10px;
+  background-color:rgb(199, 194, 194);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.sub-item li {
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 122, 149);
+}
+
+a:hover {
+  color: rgb(17, 106, 5);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 1px solid rgb(4, 122, 149);
+}
+
+a:active {
+  color: rgb(17, 106, 5, 0.5);
+}
+
+a:visited {
+  color:rgb(239, 40, 40);
+}
