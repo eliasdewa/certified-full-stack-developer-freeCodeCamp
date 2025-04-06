@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  text-align: center;
+  color: #939393;
+  margin-bottom: 40px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 5px 0;
+}
+
+input,
+select,
+fieldset,
+textarea,
+button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+  appearance: none; /* Remove default radio button styling */
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.radio-group label {
+  display: inline-block; /* Make labels inline */
+  margin: auto 15px;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked {
+  background-color: #007bff;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25); /* Add a box shadow when selected */
+}
+
+/* Change the text color of the label when the radio button is selected */
+input[type="radio"]:checked + label {
+  color: #007bff;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #007bff;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.container div:nth-child(1) input {
+  border: 2px solid #28a745;
+  background-color: #e6ffe6;
+  font-weight: bold;
+  border-radius: 2px;
+}
