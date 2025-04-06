@@ -1,0 +1,42 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.color-grid {
+  border: 1px solid #ccc;
+  padding: 10px 5px;
+  margin: auto 20px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.color1 {
+  background-color: #FF5733;
+}
+.color2 {
+  background-color: rgb(22, 195, 63);
+}
+.color3 {
+  background-color: blue;
+}
+.color4 {
+  background-color: hsl(332, 87%, 55%);
+}
+.color5 {
+  background-color: #04a19c;
+}
