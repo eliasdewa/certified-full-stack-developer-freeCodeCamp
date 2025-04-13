@@ -1,0 +1,103 @@
+* {
+  margin: 0 0.5rem;
+  padding: 1rem 0.25rem;
+}
+
+#main {
+  background-color: #cecece;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 3.5rem;
+  margin: 1rem 0.5rem;
+  padding: 2px;
+}
+
+#tribute-info {
+  font-size: 1rem;
+  margin: 1rem 0.5rem;
+  padding: 2px;
+}
+
+#img-div {
+  background-color: #fff;
+}
+
+#image {
+  display: block;
+  max-width: 95%;
+  height: auto;
+  text-align: center;
+}
+
+#img-caption {
+  font-style: italic;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.timeline {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.timeline-heading {
+  text-align: center;
+}
+
+.timeline-list {
+  max-width: 70%;
+  font-size: 1rem;
+  margin: 3rem auto;
+  padding-left: 2rem;
+}
+
+.timeline-list > li {
+  margin-bottom: 1rem;
+  padding: 2px;
+}
+
+.year-bold {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  max-width: 70%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+
+.quote > p {
+  text-align: right;
+  font-style: italic;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.read-more {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+#tribute-link {
+  color: #178f8f;
+}
+
+@media screen and (max-width: 500px){
+  * {
+    padding: 5px;
+  }
+  #timeline {
+      max-width: 90%;
+      font-size: 1rem;
+    }
+}
