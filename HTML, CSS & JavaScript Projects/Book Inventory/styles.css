@@ -29,7 +29,7 @@ table thead tr th {
   position: sticky;
   top: 0;
   z-index: 99;
-  background-color: #bb9be8;
+  background-color: #d3dfd6;
   padding: 10px;
   font-size: 1.25rem;
 }
@@ -47,13 +47,13 @@ span {
 }
 /* an attribute selector to target rows that have the class of read. */
 tr[class="read"] {
-  background-image: linear-gradient(135deg, #91eb98 100%, #52f35f 10%);
+  background-image: linear-gradient(135deg, #91d797 100%, #52f35f 10%);
 }
 
 /* an attribute selector to target the span elements with the class of status that are descendants of tr elements with the class of read. */
 tr[class="read"] span[class="status"] {
-  background-image: linear-gradient(135deg, #36f246 100%, #07b515 10%);
-  border: 1px solid #09e01b;
+  background-image: linear-gradient(135deg, #6bd574 100%, #07b515 10%);
+  border: 1px solid #6bd574;
   border-radius: 40px;
   text-align: center;
   padding: 5px;
@@ -61,13 +61,13 @@ tr[class="read"] span[class="status"] {
 
 /* an attribute selector to target rows that have the class of in-progress */
 tr[class="in-progress"] {
-  background-image: linear-gradient(135deg, #61cdcb 100%, #81d0f2 10%);
+  background-image: linear-gradient(135deg, #629f9e 100%, #81d0f2 10%);
 }
 
 /* an attribute selector to target the span elements with the class of status that are descendants of tr elements with the class of in-progress. */
 tr[class="in-progress"] span[class="status"] {
-  background-image: linear-gradient(135deg, #3be9e6 100%, #46b8e9 10%);
-  border: 1px solid #19f1ee;
+  background-image: linear-gradient(135deg, #71b8b7 100%, #699eb5 10%);
+  border: 1px solid #71b8b7;
   border-radius: 40px;
   text-align: center;
   padding: 5px;
@@ -75,13 +75,13 @@ tr[class="in-progress"] span[class="status"] {
 
 /* an attribute selector to target rows that have the class of to-read. */
 tr[class="to-read"] {
-  background-image: linear-gradient(135deg, #f3936a 100%, #ea685f 10%);
+  background-image: linear-gradient(135deg, #ab7d69 100%, #926b68 10%);
 }
 
 /* an attribute selector to target the span elements with the class of status that are descendants of tr elements with the class of to-read. */
 tr[class="to-read"] span[class="status"] {
-  background-image: linear-gradient(135deg, #ec6c35 100%, #ee4438 10%);
-  border: 1px solid #ec6c35;
+  background-image: linear-gradient(135deg, #c37a5a 100%, #cb7670 10%);
+  border: 1px solid #c37a5a;
   border-radius: 40px;
   text-align: center;
   padding: 5px;
