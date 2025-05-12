@@ -1,0 +1,85 @@
+:root {
+  --color0: #f0f0f0;
+  --color1: #dabb8e;
+  --color2: #dea95a;
+  --color3: #dd9b38;
+  --color4: #da8f1e;
+  --color5: #f89706;
+  --solid-border: 1px solid #000;
+  --dashed-border: 1px dashed #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+.available-1 {
+  background-color: var(--color1);
+}
+.available-2 {
+  background-color: var(--color2);
+}
+.available-3 {
+  background-color: var(--color3);
+}
+.available-4 {
+  background-color: var(--color4);
+}
+.available-5 {
+  background-color: var(--color5);
+}
+
+#legend {
+  width: 100px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#legend-line {
+  display: flex;
+  gap: 5px;
+}
+
+#legend-gradient {
+  width: 75%;
+  height: 15px;
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0% 15%,
+    var(--color1) 16% 31%,
+    var(--color2) 32% 47%,
+    var(--color3) 48% 64%,
+    var(--color4) 65% 80%,
+    var(--color5) 81% 100%
+  );
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+  padding: 5px;
+  text-align: center;
+}
+.half td {
+  border-bottom: var(--dashed-border);
+  padding: 5px;
+  text-align: center;
+}
