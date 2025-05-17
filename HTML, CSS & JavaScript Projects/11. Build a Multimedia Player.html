@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia Player</title>
+  </head>
+  <body>
+    <h1>Multimedia Player</h1>
+    <section>
+      <h2>Audio Player</h2>
+      <p>Play your favorite audio files.</p>
+      <audio controls aria-label="Audio Player">
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+    <section>
+      <h2>Video Player</h2>
+      <p>Watch your favorite videos.</p>
+      <video width="320" height="240" controls aria-label="Video Player">
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4"
+          type="video/mp4"
+        />
+        <track
+          kind="captions"
+          src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.vtt"
+          srclang="en"
+          label="English"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section>
+      <h2>Transcript</h2>
+      <p>
+        In this video, we will learn about the map method in JavaScript. The map
+        method creates a new array populated with the results of calling a
+        provided function on every element in the calling array.
+      </p>
+    </section>
+  </body>
+</html>
