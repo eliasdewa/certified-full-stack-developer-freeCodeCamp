@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-section">About Me</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Welcome section -->
+    <section id="welcome-section">
+      <h1>Hi, I'm <span>Elias Dewa</span></h1>
+      <p>a full stack web developer</p>
+      <p>Let's connect</p>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/eliasdewa14/"
+          id="profile-link"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/eliasdewa"
+          id="profile-link"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
+        <a
+          href="https://twitter.com/eliasdewa14"
+          id="profile-link"
+          target="_blank"
+          rel="noopener"
+          >Twitter</a
+        >
+      </div>
+    </section>
+    <!-- About section -->
+    <section id="about-section">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my portfolio! I am a web developer with a passion for
+        creating beautiful and functional websites.
+      </p>
+    </section>
+    <!-- Projects section -->
+    <section id="project-section">
+      <h2 class="project-tile">Projects</h2>
+      <p>Here are some of my recent projects:</p>
+      <div class="projects">
+        <div>
+          <h3>To-do List app</h3>
+          <p>A simple styled to-do list application</p>
+          <a href="https://github.com/eliasdewa/certified-full-stack-developer-freeCodeCamp/tree/main/HTML%2C%20CSS%20%26%20JavaScript%20Projects">Read more</a>
+        </div>
+        <div>
+          <h3>Flappy Penguin</h3>
+          <p>A cute penguin with a purple shirt, CSS styled with animation css features.</p>
+          <a href="https://github.com/eliasdewa/certified-full-stack-developer-freeCodeCamp/tree/main/HTML%2C%20CSS%20%26%20JavaScript%20Projects">Read more</a>
+        </div>
+        <div>
+          <h3>Business Card</h3>
+          <p>
+            A personal business card for showcasing skills and contact information.
+          </p>
+          <a href="https://github.com/eliasdewa/certified-full-stack-developer-freeCodeCamp/tree/main/HTML%2C%20CSS%20%26%20JavaScript%20Projects">Read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact-section">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
